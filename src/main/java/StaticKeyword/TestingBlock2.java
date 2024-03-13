@@ -21,6 +21,8 @@ public class TestingBlock2 {
     public static void main(String[] args) {
         System.out.println("main method");
         new TestingBlock2();
+        new TestingBlock2();
+        new TestingBlock2();
 
 //        output
 //        Static Block
