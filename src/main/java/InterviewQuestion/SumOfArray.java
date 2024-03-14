@@ -13,6 +13,16 @@ public class SumOfArray {
 
         int result = multiply(5,10);
         System.out.println(result);
+
+
+        // Enhanced for loop
+        int sum1 = 0;
+        for (int value : a)
+        {
+            sum1 = sum1 + value;
+        }
+
+        System.out.println(sum1);
     }
 
     private static int multiply(int i, int j) // print table of 5

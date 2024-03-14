@@ -1,26 +1,35 @@
 package InterviewQuestion;
 
+import java.util.Scanner;
+
 public class PrimeNmber {
 
     public static void main(String[] args) {
 
-        int val = 15;
-        boolean flag = false;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number");
 
-        for (int i=2;i<val/2;i++)
+
+        int num =sc.nextInt();
+        int count = 0;
+
+        for(int i = 1; i<=num; i++)
         {
-            if(val % i == 0)
+            if(num%i==0)
             {
-                flag = true;
-                break;
+                count++;
             }
+
         }
-        if(flag)
+
+        if (count == 2)
+        {
+            System.out.println("It is a prime number");
+        }
+
+        else
         {
             System.out.println("It is not a prime number");
-        }
-        else {
-            System.out.println("It is a prime number");
         }
     }
 }

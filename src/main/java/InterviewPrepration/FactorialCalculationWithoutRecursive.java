@@ -5,7 +5,7 @@ public class FactorialCalculationWithoutRecursive {
     public static void main(String[] args) {
 
         int result = 1;
-        for(int i=5; i>1; i--)
+        for(int i=5; i>=1; i--)
         {
             result = result * i;
         }
