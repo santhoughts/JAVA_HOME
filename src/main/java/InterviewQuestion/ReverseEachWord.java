@@ -19,7 +19,7 @@ public class ReverseEachWord {
             reverseString = reverseString+reverseWord+" "; // emocleW ot avaJ
         }
 
-        System.out.println(reverseString);
+       // System.out.println(reverseString);
 
 
         // User another approach
