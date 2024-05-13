@@ -11,7 +11,7 @@ public class CountNumberOfWordsInString {
         String sen = sc.nextLine();
         int count = 1;
 
-        for (int i=0;i<sen.length()-1;i++)
+        for (int i=0;i<sen.length();i++)
         {
             if (sen.charAt(i)==' ' && sen.charAt(i+1)!=' ')
             {
@@ -19,6 +19,6 @@ public class CountNumberOfWordsInString {
             }
         }
 
-        System.out.println("No. of words persent in senetence: "+count);
+        System.out.println("No. of words present in sentence: "+count);
     }
 }

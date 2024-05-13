@@ -9,7 +9,7 @@ public class Anagram {
     {
 
        char[] str1 = {'g', 'r', 'a', 'm'};
-       char[] str2 = {'r', 'a', 'm', 'g'};
+       char[] str2 = {'a', 'r', 'm', 'm'};
 
        if (areAnagram(str1, str2))
            System.out.println("This is anagram");

@@ -13,7 +13,8 @@ public class FactorialCalculator {
         // Check if the input is non-negative
         if (number < 0) {
             System.out.println("Factorial is not defined for negative numbers.");
-        } else {
+        }
+        else {
             int result = calculateFactorial(number);
             System.out.println("The factorial of " + number + " is: " + result);
         }

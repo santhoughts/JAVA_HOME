@@ -4,7 +4,6 @@ public class WhileDoWhileLoop {
 
     public static void main(String[] args) {
 
-        // While loop
         // While loop is a boolean conditions loop
 
         int i=0;
@@ -19,7 +18,7 @@ public class WhileDoWhileLoop {
         do{
             System.out.println(j);
             j++;
-        }while (j<20); //  1St loop of execution done gurantee
+        }while (j<20); //  1St loop of execution done guarantee
 
 
     }

@@ -5,11 +5,11 @@ public class PrintMaxNumberWithMinNumberColumn {
     public static void main(String[] args) {
 
         int abc[][] = {{4,3,6}, {2,9,5},{1,0,7}};
-        int min = abc[0][0]; // Assume the number which is persent on the 0,0 is the smallest one
+        int min = abc[0][0]; // Assume the number which is present on the 0,0 is the smallest one
         int minColumn = 0;
 
-        //  Find minimum number
-        // find maximum number corresponding to the minimum number which lies in same column
+        // Find minimum number
+        // Find maximum number corresponding to the minimum number which lies in same column
         for (int i = 0; i<3; i++)
         {
             for (int j = 0; j<3; j++)

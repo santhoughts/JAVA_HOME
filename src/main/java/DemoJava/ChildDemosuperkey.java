@@ -22,7 +22,7 @@ public class ChildDemosuperkey extends ParentDemosuperkey{
     //child class constructor
     public ChildDemosuperkey()
     {
-        super(); // for parent class constructor , this should be always be the first line
+        super(); //for parent class constructor , this should be always be the first line
         System.out.println("child class constructor");
     }
 

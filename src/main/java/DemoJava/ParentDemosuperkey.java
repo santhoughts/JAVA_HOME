@@ -9,7 +9,7 @@ public class ParentDemosuperkey {
         System.out.println("I am parent class");
     }
 
-    //Parent calss constructor
+    //Parent class constructor
     public ParentDemosuperkey()
     {
         System.out.println("Parent class constructor");

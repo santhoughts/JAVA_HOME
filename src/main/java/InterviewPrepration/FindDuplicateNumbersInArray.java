@@ -29,15 +29,15 @@ public class FindDuplicateNumbersInArray {
         // Approach- 2  Hashset
 
         String arr1 [] = {"Selenium", "Java", "c", "c++", "c", "Java"};
-        HashSet<String> langs = new HashSet<>();
+        HashSet<String> lang = new HashSet<>();
 
-       /* System.out.println(langs.add("Java"));
-        System.out.println(langs.add("Python"));
-        System.out.println(langs.add("Java"));*/
+       /* System.out.println(lang.add("Java"));
+        System.out.println(lang.add("Python"));
+        System.out.println(lang.add("Java"));*/
 
         for (String l : arr1)
         {
-            if (langs.add(l)==false)
+            if (lang.add(l)==false)
             {
                 System.out.println("Element found is duplicate "+l);
                 flag = true;

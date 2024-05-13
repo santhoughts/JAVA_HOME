@@ -8,11 +8,11 @@ public class CollectionData {
 
         int a[] = {4,5,5,5,4,4,6,9,6,6,6};
         //Print unique number
-        // Print unique number how many times repeated
+        //Print unique number how many times repeated
 
         ArrayList<Integer> ab = new ArrayList<Integer>();
 
-        // First check the number is present or not in Empty Arraylist, if not present then set in arraylist
+        //First check the number is present or not in Empty Arraylist, if not present then set in arraylist
 
 
         for (int i = 0; i < a.length; i++)
@@ -36,6 +36,11 @@ public class CollectionData {
 
                 if(k==1)
                     System.out.println(a[i] + " is a unique number");
+            }
+
+            else
+            {
+                System.out.println(a[i] + " is not a unque number");
             }
 
 

@@ -2,7 +2,7 @@ package DemoJava;
 
 public class StaticVar {
 
-    // Instance Variable
+    //Instance Variable
     String name;
     String address;
    static String city; // Class variable , it is used same for the every object
@@ -17,7 +17,7 @@ public class StaticVar {
 
     StaticVar(String name, String address) // Local Variable
     {
-        // Assign the value to the instance variable through the this key
+        // Assign the value to the instance variable through the "this" key
         this.name = name;
         this.address = address;
         i++;

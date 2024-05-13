@@ -36,7 +36,8 @@ public class ConstructorDemo {
     public static void main(String[] args) {
 
         //object
-        // When we create an object of a constructor then there is no required to call the constructor method by object name because the block of code is executed automatically.
+        // When we create an object of a constructor then there is no required to call the constructor--
+        // --method by object name because the block of code is executed automatically.
         ConstructorDemo cd = new ConstructorDemo();
         cd.getData();
         ConstructorDemo c = new ConstructorDemo(4, 5); // object of parameterized constructor
