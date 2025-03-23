@@ -9,7 +9,7 @@ public class Anagram {
     {
 
        char[] str1 = {'g', 'r', 'a', 'm'};
-       char[] str2 = {'a', 'r', 'm', 'm'};
+       char[] str2 = {'a', 'r', 'g', 'm'};
 
        if (areAnagram(str1, str2))
            System.out.println("This is anagram");
@@ -31,10 +31,11 @@ public class Anagram {
             return false;
 
 
-            // else sort both the arrays
+        // else sort both the arrays
         else
             Arrays.sort(str1);
-        Arrays.sort(str2);
+            Arrays.sort(str2);
+
         // compare the sorted string
         for (int i = 0; i < l1; i++)
 
